@@ -1,11 +1,12 @@
 # dotfiles
 
 ```
-sudo apt-get install wget zsh tmux curl wget;
+apt-get update;
+apt-get install wget zsh tmux curl wget;
 pip install gpustat;
 
 git clone https://github.com/1Konny/dotfiles.git ~/.dotfiles; 
-cd ~/.dotfiles; bash install.sh -c
+cd ~/.dotfiles; bash install.sh
 ```
 terminal info: <br>
  - type: xterm <br>
