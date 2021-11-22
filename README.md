@@ -2,7 +2,7 @@
 
 ```
 apt-get update;
-apt-get install wget zsh tmux curl wget;
+apt-get install -y wget zsh tmux curl wget;
 pip install gpustat;
 
 git clone https://github.com/1Konny/dotfiles.git ~/.dotfiles; 
