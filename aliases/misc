@@ -22,8 +22,8 @@ alias vis='python -m visdom.server'
 # jupyter notebook
 alias jn='jupyter notebook'
 alias jna='jupyter notebook --ip 0.0.0.0'
-alias jla='jupyter lab'
-alias jla='jupyter lab --ip 0.0.0.0'
+alias jl='jupyter lab'
+alias jla='jupyter lab --ip 0.0.0.0 --allow-root'
 
 # gpu
 alias gpu="watch --color -n.5 gpustat --color"
