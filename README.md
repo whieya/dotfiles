@@ -2,7 +2,7 @@
 
 ```
 apt-get update;
-apt-get install -y wget zsh vim tmux curl htop; pip install gpustat;
+apt-get install -y wget zsh vim tmux curl git htop; pip install gpustat;
 git clone https://github.com/SeongwoongCho/dotfiles.git ~/.dotfiles; 
 cd ~/.dotfiles; bash install.sh
 ```
