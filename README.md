@@ -2,7 +2,7 @@
 
 ```
 apt-get update;
-apt-get install -y wget zsh vim tmux curl git htop; pip install gpustat;
+apt-get install -y wget zsh vim tmux curl git htop libgl1 libglib2.0-0; pip install gpustat opencv-python matplotlib einops;
 git clone https://github.com/SeongwoongCho/dotfiles.git ~/.dotfiles; 
 cd ~/.dotfiles; bash install.sh
 ```
