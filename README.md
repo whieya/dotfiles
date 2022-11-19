@@ -2,7 +2,7 @@
 
 ```
 apt-get update;
-apt-get install -y wget zsh vim tmux curl git htop libgl1 libglib2.0-0 rsync; pip install gpustat opencv-python matplotlib einops scikit-image scikit-learn jupyter jupyterlab ipdb easydict seaborn tensorboard;
+apt-get install -y unzip zip wget zsh vim tmux curl git htop libgl1 libglib2.0-0 rsync; pip install gpustat opencv-python matplotlib einops scikit-image scikit-learn jupyter jupyterlab ipdb easydict seaborn tensorboard;
 git clone https://github.com/SeongwoongCho/dotfiles.git ~/.dotfiles;
 cd ~/.dotfiles; bash install.sh
 ```
