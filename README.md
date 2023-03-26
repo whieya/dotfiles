@@ -3,7 +3,7 @@
 ```
 apt-get update;
 apt-get install -y software-properties-common curl;
-add-apt-repository ppa:jonathonf/vim;
+add-apt-repository ppa:jonathonf/vim -y;
 curl -s https://deb.nodesource.com/setup_16.x | bash;
 
 apt-get update;
