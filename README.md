@@ -1,7 +1,8 @@
 # dotfiles
 
 ```
-apt-get install -y software-properties-common;
+apt-get update;
+apt-get install -y software-properties-common curl;
 add-apt-repository ppa:jonathonf/vim;
 curl -s https://deb.nodesource.com/setup_16.x | bash;
 
