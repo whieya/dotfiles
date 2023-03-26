@@ -77,7 +77,7 @@ vim -u NONE -c "helptags $HOME/.vim/bundle/ctrlp.vim/doc" -c q
 git clone https://github.com/mhartington/oceanic-next.git $HOME/.vim/bundle/oceanic-next
 
 ## github copilot
-git clone https://github.com/github/copilot.vim.git \ ~/.vim/pack/github/start/copilot.vim
+git clone https://github.com/github/copilot.vim.git ~/.vim/pack/github/start/copilot.vim
 
 #==================================================#
 # anaconda3
