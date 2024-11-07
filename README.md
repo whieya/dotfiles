@@ -8,6 +8,13 @@ apt-get update; apt-get install -y nodejs unzip zip wget zsh vim tmux curl git h
 git clone https://github.com/SeongwoongCho/dotfiles.git ~/.dotfiles; bash ~/.dotfiles/install.sh; git clone https://github.com/github/copilot.vim.git ~/.vim/pack/github/start/copilot.vim
 
 ```
+
+upgrade the version nodejs (under 18.x version might not use copilot)
+```
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+nvm install 20.18.0
+```
+
 terminal info: <br>
  - type: xterm <br>
  - colorscheme: New Black <br>
